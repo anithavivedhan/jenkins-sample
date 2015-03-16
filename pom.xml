@@ -46,9 +46,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:ssh://github.com/anithavivedhan/sample.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/anithavivedhan/sample</developerConnection>
-        <url>https://github.com/anithavivedhan/sample</url>
+        <connection>scm:git:ssh://github.com/anithavivedhan/jenkins-sample.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/anithavivedhan/jenkins-sample</developerConnection>
+        <url>https://github.com/anithavivedhan/jenkins-sample</url>
       <tag>HEAD</tag>
   </scm>
 
