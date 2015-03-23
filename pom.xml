@@ -20,8 +20,8 @@
     <!-- keeping original groupId -->
     <groupId>org.jvnet.hudson.plugins</groupId>
 	<artifactId>sample</artifactId>
-	<packaging>jar</packaging>
-<version>1.26-SNAPSHOT</version>
+	<packaging>hpi</packaging>
+<version>1.27-SNAPSHOT</version>
 	<name>Jenkins Sample Plugin</name>
 	<description>A Build status publisher that notifies message</description>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/sample+Plugin</url>
@@ -83,8 +83,15 @@
     <build>
         <pluginManagement>
             <plugins>
+                <plugin>
+                   <groupId>org.jenkins-ci.tools</groupId>
+                   <artifactId>maven-hpi-plugin</artifactId>
+                   <configuration>
+                       <disabledTestInjection>true</disabledTestInjection>
+                   </configuration>
+                </plugin>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
+                  <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
         <version>2.5.1</version>
         <dependencies>
