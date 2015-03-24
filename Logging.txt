@@ -1,6 +1,6 @@
-Mar 23, 2015 4:00:53 PM jenkins.plugins.sample.StandardHipChatService publish
+Mar 24, 2015 12:33:15 PM jenkins.plugins.sample.StandardHipChatService publish
 INFO: Posting: from to room: message yellow
-Mar 23, 2015 4:01:03 PM jenkins.plugins.sample.StandardHipChatService publish
+Mar 24, 2015 12:33:22 PM jenkins.plugins.sample.StandardHipChatService publish
 WARNING: Error posting to sample
 java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
