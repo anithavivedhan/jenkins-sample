@@ -5,12 +5,12 @@ Build-Jdk: 1.8.0_25
 Extension-Name: sample
 Specification-Title: A Build status publisher that notifies message
 Implementation-Title: sample
-Implementation-Version: 1.28
+Implementation-Version: 1.29
 Group-Id: org.jvnet.hudson.plugins
 Short-Name: sample
 Long-Name: Jenkins Sample Plugin
 Url: https://wiki.jenkins-ci.org/display/JENKINS/sample
-Plugin-Version: 1.28
+Plugin-Version: 1.29
 Hudson-Version: 1.509.3
 Jenkins-Version: 1.509.3
 Plugin-Developers: kalanjia:maven.jenkins-ci.org:
